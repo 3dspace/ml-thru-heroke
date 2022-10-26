@@ -1,5 +1,5 @@
 # ml-thru-heroke
-Deploying ML models on Heroke using FastAPI and Docker
+Deploying ML models on Heroku using FastAPI and Docker
 
 Based on FastAPI and Docker code at: https://github.com/AssemblyAI-Examples/ml-fastapi-docker-heroku
 
