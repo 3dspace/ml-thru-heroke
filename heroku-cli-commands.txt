@@ -1,0 +1,24 @@
+Heroku CLI commands
+
+$ heroku create
+Creating app... done, ⬢ serene-caverns-82714
+https://serene-caverns-82714.herokuapp.com/ | https://git.heroku.com/serene-caverns-82714.git
+
+$ git push heroku main
+Enumerating objects: 708, done.
+Counting objects: 100% (708/708), done.
+Delta compression using up to 8 threa...
+
+$ heroku ps:scale web=1
+
+$ heroku open
+
+$ heroku logs --tail
+2022-01-19T16:49:40.323576+00:00 heroku[web.1]: Starting process with command `gunicorn gettingstarted.wsgi`
+2022-01-19T16:49:41.952853+00:00 app[web.1]: [2...
+
+$ heroku create language-custom-444 
+
+$ heroku git:remote language-custom-444
+
+$ heroku stack:set container
