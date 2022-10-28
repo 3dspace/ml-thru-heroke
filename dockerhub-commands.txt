@@ -1,0 +1,7 @@
+docker container ls 
+
+RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
+
+docker build -t myimage .
+
+docker run -d --name fourthcontainer -p 80:80 thirdimage
